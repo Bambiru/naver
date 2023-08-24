@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="bambi" />
+    <meta name="description" content="Protfolio, NAVER" />
+
+    <title>NAVER</title>
+
+    <!-- 폰트어썸 -->
+    <script
+      src="https://kit.fontawesome.com/0947dbac23.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- favorite Icon 설정하기-->
+    <link rel="shortcut icon" href="./images/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon=precomposed"
+      href="./images/favicon/favicon.ico"
+    />
+    <!-- 네이버폰트 -->
+    <link
+      href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-neo.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS파일 -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <!-- 박스 슬라이더 CSS -->
+    <link rel="stylesheet" href="./css/jquery.bxslider.css" />
+    <!-- 해당 문서 CSS -->
+    <link rel="stylesheet" href="./css/naver.css" />
+
+    <!-- 제이쿼리 코어파일 -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <!-- 박스 슬라이더 JS -->
+    <script src="./js/jquery.bxslider.js"></script>
+  </head>
+  <body>
+    <!-- dimmed 처리 -->
+    <div id="dimmed"></div>
+    <!-- /dimmed 처리 -->
+    <div id="wrap">
+      <!-- 1. Header -->
+      <header class="header cf">
+        <div class="container">
+          <!-- Logo -->
+          <h1 class="logo">
+            <a href="index.html"
+              ><img src="./images/naver_img/header_logo.png" alt="네이버로고"
+            /></a>
+          </h1>
+          <!-- /Logo -->
+
+          <!-- GNB -->
+          <nav>
+            <ul class="gnb">
+              <li><a href="#">네이버</a></li>
+              <li><a href="#">서비스</a></li>
+              <li><a href="#">가치실현</a></li>
+              <li><a href="#">홍보</a></li>
+              <li><a href="#">투자정보</a></li>
+              <li><a href="#">스토리</a></li>
+              <li><a href="#">채용</a></li>
+            </ul>
+          </nav>
+          <!-- /GNB -->
+          <!-- Hamberger Toggle -->
+          <input type="checkbox" id="menu_toggle_btn" />
+          <label for="menu_toggle_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <!-- /Hamberger Toggle -->
+        </div>
+      </header>
+      <!-- /1. Header -->
+      <!-- 2. Slider -->
+      <article class="slider">
+        <div id="gallery_wrap">
+          <ul class="slide_gallery">
+            <li>
+              <img
+                src="./images/img_bxSlider/article01.jpg"
+                alt="슬라이드 이미지01"
+              />
+              <div class="text">
+                <h2>
+                  건강한 지구를 위해 <br />
+                  네이버가 Green 계획을 소개합니다.
+                </h2>
+                <p>
+                  디지털 친환경부터 지구를 위한 가장 쉽고 착한 소비까지<br />
+                  네이버의 기술력과 파트너와의 공동 노력으로 친환경 생태계를
+                  확대해 나가고 있습니다.
+                </p>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./images/img_bxSlider/article02.jpg"
+                alt="슬라이드 이미지02"
+              />
+              <div class="text">
+                <h2>
+                  네이버 1784에서 <br />
+                  우리는 혁신을 현실로 만들고 있습니다.
+                </h2>
+                <p>
+                  네이버의 다양한 기술들로 실험과 도전, 융합을 통해<br />
+                  새로운 기회와 가능성을 만들어 갑니다.
+                </p>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./images/img_bxSlider/article03.jpg"
+                alt="슬라이드 이미지03"
+              />
+              <div class="text">
+                <h2>
+                  N개의 엔진이, 하나의 팀처럼! <br />
+                  네이버의 다양한 서비스와 비즈니스를 만듭니다
+                </h2>
+                <p>
+                  도전과 혁신으로 똘똘 뭉친 TEAM NAVER 인사이드 스토리<br />
+                  TEAM NAVER 에피소드로 만나보세요.
+                </p>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./images/img_bxSlider/article04.jpg"
+                alt="슬라이드 이미지04"
+              />
+              <div class="text">
+                <h2>
+                  네이버의 뛰어난 동료들과 함께 성장하는 법, <br />
+                  지금 바로 NAVERSHIP에 탑승하세요!
+                </h2>
+                <p>서로 다른 사람들이 모여 네이버의 추진력을 만듭니다.<br /></p>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./images/img_bxSlider/article05.jpg"
+                alt="슬라이드 이미지05"
+              />
+              <div class="text">
+                <h2>
+                  사업의 시작부터 성장까지 <br />
+                  네이버 SME 풀케어시스템이 함께합니다.
+                </h2>
+                <p>
+                  사업자를 지원하고 응원하는 네이버 시스템이 사장님의 경쟁력이
+                  됩니다.<br />
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <!-- /2. Slider -->
+      <!-- 3. Content -->
+      <main role="main">
+        <section class="content">
+          <!-- 3-1. Display -->
+          <section class="display_section container">
+            <div class="cf">
+              <h2 class="sec_title">WE ARE</h2>
+              <p class="desc">
+                개인의 다양한 가능성이 의미있는 성공으로 꽃 피울 수 있도록<br />
+                네이버가 서비스와 기술플랫폼을 통해 더 가까이 서포트(SUPPORT)
+                합니다.
+              </p>
+            </div>
+          </section>
+          <!-- /3-1. Display -->
+
+          <!-- 3-2. Promotion -->
+          <section class="promotion_section container">
+            <h2>
+              <ul class="promotion_list cf">
+                <li>
+                  <a href="#">
+                    <p class="img1"></p>
+                    <h3>Creators With NAVER</h3>
+                    <p>
+                      개성과 실력 있는 창작자들이 그들의 이름으로 가치를
+                      인정받을 수 있도록 지원합니다.
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <p class="img2"></p>
+                    <h3>Business With NAVER</h3>
+                    <p>
+                      파트너들의 성공적인 창업과 지속가능한 사업을 위해
+                      노력합니다.
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <p class="img3"></p>
+                    <h3>Developers With NAVER</h3>
+                    <p>
+                      개발자와 개발사들의 지식과 경험을 공유하며 함께 성장해
+                      나갑니다.
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <p class="img4"></p>
+                    <h3>프로젝트 꽃</h3>
+                    <p>
+                      전세계의 SME와 창작자들이 기술을 이용해 다양성을 꽃 피울
+                      수 있도록 네이버가 함께 합니다.
+                    </p>
+                  </a>
+                </li>
+              </ul>
+            </h2>
+          </section>
+          <!-- /3-2. Promotion -->
+
+          <hr class="divider" />
+
+          <!-- 3-3. Work -->
+          <section class="work_section">
+            <div>
+              <h2 class="sec_title container">SERVICE</h2>
+              <ul class="work_list cf">
+                <li>
+                  <a href="#">
+                    <div>
+                      <h3>네이버 웨일</h3>
+                      <span>인터넷의 새로운 시작</span>
+                    </div>
+                    <img
+                      src="./images/p_images/photo01.png"
+                      alt="포트폴리오1"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <h3>네이버 웹툰</h3>
+                      <span>매일매일 새로운 재미</span>
+                    </div>
+                    <img
+                      src="./images/p_images/photo02.png"
+                      alt="포트폴리오2"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <h3>프로젝트 꽃</h3>
+                      <span>가치의 발견과 성장</span>
+                    </div>
+                    <img
+                      src="./images/p_images/photo03.png"
+                      alt="포트폴리오3"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <h3>N로봇</h3>
+                      <span>가장 최신의 로봇 기술, 네이버 로봇</span>
+                    </div>
+                    <img
+                      src="./images/p_images/photo04.png"
+                      alt="포트폴리오4"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <h3>클로바노트</h3>
+                      <span>눈으로 보며 듣는 음성기록</span>
+                    </div>
+                    <img
+                      src="./images/p_images/photo05.png"
+                      alt="포트폴리오5"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <h3>네이버페이 앱</h3>
+                      <span>현장결제, 멤버십 적립, 송금까지 한 번에</span>
+                    </div>
+                    <img
+                      src="./images/p_images/photo06.png"
+                      alt="포트폴리오6"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <h3>NOW</h3>
+                      <span>We Live NOW</span>
+                    </div>
+                    <img
+                      src="./images/p_images/photo07.png"
+                      alt="포트폴리오7"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <h3>네이버웍스</h3>
+                      <span
+                        >네이버웍스는 비즈니스 커뮤니케이션을 넓힙니다.</span
+                      >
+                    </div>
+                    <img
+                      src="./images/p_images/photo08.png"
+                      alt="포트폴리오8"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <!-- /3-3. Work -->
+
+          <hr class="m_divider" />
+
+          <!-- 3-4. WORKVIEW -->
+          <section class="workview_section container">
+            <div class="cf">
+              <h2 class="sec_title">WORKVIEW</h2>
+              <ul class="workview_list cf">
+                <li>
+                  <a href="#">
+                    <img
+                      src="./images/p_images/work01.jpg"
+                      alt="블로그 이미지01"
+                    />
+                  </a>
+                  <time datetime="2023-02-20">2023. 02. 20</time>
+                  <a href="#">
+                    <h3>
+                      성장의 조각을 찾기 위한 실험,<br />
+                      이민선 님
+                    </h3>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="./images/p_images/work02.jpg"
+                      alt="블로그 이미지02"
+                    />
+                  </a>
+                  <time datetime="2023-02-20">2023. 02. 20</time>
+                  <a href="#">
+                    <h3>
+                      애정이 책임이 될 때,<br />
+                      조민형 님
+                    </h3>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="./images/p_images/work03.jpg"
+                      alt="블로그 이미지03"
+                    />
+                  </a>
+                  <time datetime="2022-05-11">2022. 05. 11</time>
+                  <a href="#">
+                    <h3>
+                      새로운 세계관을 구축하는 일,<br />
+                      채은석, 심광섭 님
+                    </h3>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <!-- /3-4. WORKVIEW -->
+
+          <!-- 3-5. Contact -->
+          <section class="contact_section container">
+            <div class="cf">
+              <h2 class="sec_title">CONTACT</h2>
+              <form action="#" class="form_box">
+                <fieldset class="cf">
+                  <legend class="blind">CONTACT&nbsp;US</legend>
+                  <!-- Input Form -->
+                  <div class="form">
+                    <label for="name" class="blind">Name</label>
+                    <input type="text" id="name" placeholder="Name" />
+                    <label for="phone" class="blind">Phone</label>
+                    <input type="tel" id="phone" placeholder="Phone" />
+                    <label for="email" class="blind">E-Mail</label>
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="Email Address"
+                    />
+                  </div>
+                  <!-- /Input Form -->
+                  <!-- Textarea Form -->
+                  <div class="txta">
+                    <label for="message" class="blind">Message</label>
+                    <textarea id="message" placeholder="Message"></textarea>
+                  </div>
+                </fieldset>
+                <!-- /Textarea Form -->
+                <!-- Button -->
+                <div class="send_btn">
+                  <button type="button">SEND MESSAGE</button>
+                </div>
+                <!-- /Button -->
+              </form>
+            </div>
+          </section>
+          <!-- /3-5. Contact -->
+        </section>
+      </main>
+      <!-- /3. Content -->
+
+      <!-- 4. Footer -->
+      <footer class="footer">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.3162766097016!2d127.10254597643909!3d37.358692572093275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b594ad4a5f637%3A0x3c6d14451c54d784!2z64Sk7J2067KEIDE3ODQ!5e0!3m2!1sko!2skr!4v1681377596237!5m2!1sko!2skr"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <p>COPYRIGHT ALL RIGHTS RESERVED., <span>NAVER</span></p>
+      </footer>
+      <!-- /4. Footer -->
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
