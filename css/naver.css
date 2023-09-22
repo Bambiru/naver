@@ -175,13 +175,24 @@ article {
   max-width: 1920px;
   margin: 0 auto;
 }
-article #gallery_wrap {
+
+article .gallery_wrap {
   max-width: 1920px;
   height: 100%;
 }
-.slide_gallery {
-  /* 위치기준값 */
+#dotContainer {
+  text-align: center;
   position: relative;
+  top: -40px;
+  cursor: pointer;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
 }
 /* 2. 슬라이드 추가 */
 .slide_gallery .text {
@@ -201,6 +212,24 @@ article #gallery_wrap {
 .slide_gallery .text p {
   font-size: 0.5rem;
   line-height: 1.5;
+}
+.slide_gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap; /* 이미지들이 한 줄에 표시되도록 설정 */
+}
+.slide_gallery li {
+  float: left;
+  width: 100%; /* 이미지가 100% 너비로 표시되도록 설정 */
+  position: relative;
+}
+
+.slide_gallery img {
+  width: 100%; /* 이미지가 부모 요소의 100% 너비를 차지하도록 설정 */
+  height: auto;
 }
 
 /* 3. Content */
